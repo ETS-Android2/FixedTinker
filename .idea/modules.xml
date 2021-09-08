@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinker-dev.iml" filepath="$PROJECT_DIR$/.idea/modules/tinker-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/third-party/tinker-dev.third-party.iml" filepath="$PROJECT_DIR$/.idea/modules/third-party/tinker-dev.third-party.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/third-party/aosp-dexutils/tinker-dev.third-party.aosp-dexutils.iml" filepath="$PROJECT_DIR$/.idea/modules/third-party/aosp-dexutils/tinker-dev.third-party.aosp-dexutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/third-party/bsdiff-util/tinker-dev.third-party.bsdiff-util.iml" filepath="$PROJECT_DIR$/.idea/modules/third-party/bsdiff-util/tinker-dev.third-party.bsdiff-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/third-party/tinker-ziputils/tinker-dev.third-party.tinker-ziputils.iml" filepath="$PROJECT_DIR$/.idea/modules/third-party/tinker-ziputils/tinker-dev.third-party.tinker-ziputils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinker-android/tinker-dev.tinker-android.iml" filepath="$PROJECT_DIR$/.idea/modules/tinker-android/tinker-dev.tinker-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinker-android/tinker-android-anno/tinker-dev.tinker-android.tinker-android-anno.iml" filepath="$PROJECT_DIR$/.idea/modules/tinker-android/tinker-android-anno/tinker-dev.tinker-android.tinker-android-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinker-android/tinker-android-anno-support/tinker-dev.tinker-android.tinker-android-anno-support.iml" filepath="$PROJECT_DIR$/.idea/modules/tinker-android/tinker-android-anno-support/tinker-dev.tinker-android.tinker-android-anno-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinker-android/tinker-android-lib/tinker-dev.tinker-android.tinker-android-lib.iml" filepath="$PROJECT_DIR$/.idea/modules/tinker-android/tinker-android-lib/tinker-dev.tinker-android.tinker-android-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinker-android/tinker-android-lib-no-op/tinker-dev.tinker-android.tinker-android-lib-no-op.iml" filepath="$PROJECT_DIR$/.idea/modules/tinker-android/tinker-android-lib-no-op/tinker-dev.tinker-android.tinker-android-lib-no-op.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinker-android/tinker-android-loader/tinker-dev.tinker-android.tinker-android-loader.iml" filepath="$PROJECT_DIR$/.idea/modules/tinker-android/tinker-android-loader/tinker-dev.tinker-android.tinker-android-loader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinker-android/tinker-android-loader-no-op/tinker-dev.tinker-android.tinker-android-loader-no-op.iml" filepath="$PROJECT_DIR$/.idea/modules/tinker-android/tinker-android-loader-no-op/tinker-dev.tinker-android.tinker-android-loader-no-op.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinker-build/tinker-dev.tinker-build.iml" filepath="$PROJECT_DIR$/.idea/modules/tinker-build/tinker-dev.tinker-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinker-build/tinker-patch-cli/tinker-dev.tinker-build.tinker-patch-cli.iml" filepath="$PROJECT_DIR$/.idea/modules/tinker-build/tinker-patch-cli/tinker-dev.tinker-build.tinker-patch-cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinker-build/tinker-patch-gradle-plugin/tinker-dev.tinker-build.tinker-patch-gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/tinker-build/tinker-patch-gradle-plugin/tinker-dev.tinker-build.tinker-patch-gradle-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinker-build/tinker-patch-lib/tinker-dev.tinker-build.tinker-patch-lib.iml" filepath="$PROJECT_DIR$/.idea/modules/tinker-build/tinker-patch-lib/tinker-dev.tinker-build.tinker-patch-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinker-commons/tinker-dev.tinker-commons.iml" filepath="$PROJECT_DIR$/.idea/modules/tinker-commons/tinker-dev.tinker-commons.iml" />
+    </modules>
+  </component>
+</project>

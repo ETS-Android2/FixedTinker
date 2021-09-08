@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./tinker-android/tinker-android-loader/stubs/sysapi-access-stub.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tinker-android/tinker-android-loader/stubs/sysapi-access-stub.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

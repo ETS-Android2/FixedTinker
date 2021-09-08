@@ -1,0 +1,10 @@
+resources_out.zip,1872053112,9fbfdc2d8ad3fb5d63ca27d4fd3b5219
+pattern:3
+resources.arsc
+res/*
+assets/*
+modify:2
+res/layout/activity_main.xml
+res/layout-v17/activity_main.xml
+add:1
+assets/only_use_to_test_tinker_resource.txt

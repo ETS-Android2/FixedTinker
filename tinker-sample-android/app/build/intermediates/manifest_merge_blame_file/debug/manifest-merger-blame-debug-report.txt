@@ -1,0 +1,410 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="tinker.sample.android"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:6:22-77
+13
+14    <application
+14-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:8:5-26:19
+15        android:name="tinker.sample.android.app.SampleApplication"
+15-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:9:9-46
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dd05519d0e0e952c297dd50dfe37604e\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:11:9-41
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:12:9-40
+21        <service
+21-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:13:9-16:39
+22            android:name="tinker.sample.android.service.SampleResultService"
+22-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:14:13-56
+23            android:exported="false"
+23-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:16:13-37
+24            android:permission="android.permission.BIND_JOB_SERVICE" />
+24-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:15:13-69
+25
+26        <activity android:name="tinker.sample.android.app.MainActivity" >
+26-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:18:9-24:20
+26-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:18:19-51
+27            <intent-filter>
+27-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:19:13-23:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:20:17-68
+28-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:20:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:22:17-76
+30-->C:\Users\MFJS.DESKTOP-AL1GQRM\Documents\tinker-dev\tinker-sample-android\app\src\main\AndroidManifest.xml:22:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <service
+34-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:10:9-14:40
+35            android:name="com.tencent.tinker.lib.service.TinkerPatchForeService"
+35-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:11:13-81
+36            android:enabled="true"
+36-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:12:13-35
+37            android:exported="false"
+37-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:13:13-37
+38            android:process=":patch" />
+38-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:14:13-37
+39        <!--
+40            Notice:
+41            Following service must run in the same process.
+42              TinkerPatchService
+43              TinkerPatchService$InnerService
+44        -->
+45        <!-- ########################################################################### -->
+46        <service
+46-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:22:9-26:40
+47            android:name="com.tencent.tinker.lib.service.TinkerPatchService"
+47-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:23:13-77
+48            android:exported="false"
+48-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:24:13-37
+49            android:permission="android.permission.BIND_JOB_SERVICE"
+49-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:25:13-69
+50            android:process=":patch" />
+50-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:26:13-37
+51        <service
+51-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:27:9-30:40
+52            android:name="com.tencent.tinker.lib.service.TinkerPatchService$InnerService"
+52-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:28:13-90
+53            android:exported="false"
+53-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:29:13-37
+54            android:process=":patch" /> <!-- ########################################################################### -->
+54-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:30:13-37
+55        <service
+55-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:31:9-34:72
+56            android:name="com.tencent.tinker.lib.service.DefaultTinkerResultService"
+56-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:32:13-85
+57            android:exported="false"
+57-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:33:13-37
+58            android:permission="android.permission.BIND_JOB_SERVICE" />
+58-->[com.tencent.tinker:tinker-android-lib:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\dbc9098d1e14413a991d9c82454eb904\jetified-tinker-android-lib-1.9.14.17\AndroidManifest.xml:34:13-69
+59
+60        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00" />
+60-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:10:9-95
+60-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:10:19-92
+61        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01" />
+61-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:11:9-95
+61-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:11:19-92
+62        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02" />
+62-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:12:9-95
+62-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:12:19-92
+63        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03" />
+63-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:13:9-95
+63-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:13:19-92
+64        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04" />
+64-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:14:9-95
+64-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:14:19-92
+65        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05" />
+65-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:15:9-95
+65-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:15:19-92
+66        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06" />
+66-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:16:9-95
+66-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:16:19-92
+67        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07" />
+67-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:17:9-95
+67-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:17:19-92
+68        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08" />
+68-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:18:9-95
+68-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:18:19-92
+69        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09" />
+69-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:19:9-95
+69-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:19:19-92
+70        <activity
+70-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:20:9-22:64
+71            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T"
+71-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:21:13-88
+72            android:theme="@android:style/Theme.Translucent" />
+72-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:22:13-61
+73        <activity
+73-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:23:9-25:64
+74            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T"
+74-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:24:13-88
+75            android:theme="@android:style/Theme.Translucent" />
+75-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:25:13-61
+76        <activity
+76-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:26:9-28:64
+77            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T"
+77-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:27:13-88
+78            android:theme="@android:style/Theme.Translucent" />
+78-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:28:13-61
+79        <activity
+79-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:29:9-31:46
+80            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00"
+80-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:30:13-86
+81            android:launchMode="singleTop" />
+81-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:31:13-43
+82        <activity
+82-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:32:9-34:46
+83            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01"
+83-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:33:13-86
+84            android:launchMode="singleTop" />
+84-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:34:13-43
+85        <activity
+85-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:35:9-37:46
+86            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02"
+86-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:36:13-86
+87            android:launchMode="singleTop" />
+87-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:37:13-43
+88        <activity
+88-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:38:9-40:46
+89            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03"
+89-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:39:13-86
+90            android:launchMode="singleTop" />
+90-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:40:13-43
+91        <activity
+91-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:41:9-43:46
+92            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04"
+92-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:42:13-86
+93            android:launchMode="singleTop" />
+93-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:43:13-43
+94        <activity
+94-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:44:9-46:46
+95            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05"
+95-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:45:13-86
+96            android:launchMode="singleTop" />
+96-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:46:13-43
+97        <activity
+97-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:47:9-49:46
+98            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06"
+98-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:48:13-86
+99            android:launchMode="singleTop" />
+99-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:49:13-43
+100        <activity
+100-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:50:9-52:46
+101            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07"
+101-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:51:13-86
+102            android:launchMode="singleTop" />
+102-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:52:13-43
+103        <activity
+103-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:53:9-55:46
+104            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08"
+104-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:54:13-86
+105            android:launchMode="singleTop" />
+105-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:55:13-43
+106        <activity
+106-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:56:9-58:46
+107            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09"
+107-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:57:13-86
+108            android:launchMode="singleTop" />
+108-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:58:13-43
+109        <activity
+109-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:59:9-62:64
+110            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T"
+110-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:60:13-88
+111            android:launchMode="singleTop"
+111-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:61:13-43
+112            android:theme="@android:style/Theme.Translucent" />
+112-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:62:13-61
+113        <activity
+113-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:63:9-66:64
+114            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T"
+114-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:64:13-88
+115            android:launchMode="singleTop"
+115-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:65:13-43
+116            android:theme="@android:style/Theme.Translucent" />
+116-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:66:13-61
+117        <activity
+117-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:67:9-70:64
+118            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T"
+118-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:68:13-88
+119            android:launchMode="singleTop"
+119-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:69:13-43
+120            android:theme="@android:style/Theme.Translucent" />
+120-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:70:13-61
+121        <activity
+121-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:71:9-73:47
+122            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00"
+122-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:72:13-87
+123            android:launchMode="singleTask" />
+123-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:73:13-44
+124        <activity
+124-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:74:9-76:47
+125            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01"
+125-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:75:13-87
+126            android:launchMode="singleTask" />
+126-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:76:13-44
+127        <activity
+127-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:77:9-79:47
+128            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02"
+128-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:78:13-87
+129            android:launchMode="singleTask" />
+129-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:79:13-44
+130        <activity
+130-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:80:9-82:47
+131            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03"
+131-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:81:13-87
+132            android:launchMode="singleTask" />
+132-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:82:13-44
+133        <activity
+133-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:83:9-85:47
+134            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04"
+134-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:84:13-87
+135            android:launchMode="singleTask" />
+135-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:85:13-44
+136        <activity
+136-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:86:9-88:47
+137            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05"
+137-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:87:13-87
+138            android:launchMode="singleTask" />
+138-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:88:13-44
+139        <activity
+139-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:89:9-91:47
+140            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06"
+140-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:90:13-87
+141            android:launchMode="singleTask" />
+141-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:91:13-44
+142        <activity
+142-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:92:9-94:47
+143            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07"
+143-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:93:13-87
+144            android:launchMode="singleTask" />
+144-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:94:13-44
+145        <activity
+145-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:95:9-97:47
+146            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08"
+146-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:96:13-87
+147            android:launchMode="singleTask" />
+147-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:97:13-44
+148        <activity
+148-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:98:9-100:47
+149            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09"
+149-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:99:13-87
+150            android:launchMode="singleTask" />
+150-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:100:13-44
+151        <activity
+151-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:101:9-104:64
+152            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T"
+152-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:102:13-89
+153            android:launchMode="singleTask"
+153-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:103:13-44
+154            android:theme="@android:style/Theme.Translucent" />
+154-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:104:13-61
+155        <activity
+155-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:105:9-108:64
+156            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T"
+156-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:106:13-89
+157            android:launchMode="singleTask"
+157-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:107:13-44
+158            android:theme="@android:style/Theme.Translucent" />
+158-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:108:13-61
+159        <activity
+159-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:109:9-112:64
+160            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T"
+160-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:110:13-89
+161            android:launchMode="singleTask"
+161-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:111:13-44
+162            android:theme="@android:style/Theme.Translucent" />
+162-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:112:13-61
+163        <activity
+163-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:113:9-115:51
+164            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00"
+164-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:114:13-85
+165            android:launchMode="singleInstance" />
+165-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:115:13-48
+166        <activity
+166-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:116:9-118:51
+167            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01"
+167-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:117:13-85
+168            android:launchMode="singleInstance" />
+168-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:118:13-48
+169        <activity
+169-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:119:9-121:51
+170            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02"
+170-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:120:13-85
+171            android:launchMode="singleInstance" />
+171-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:121:13-48
+172        <activity
+172-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:122:9-124:51
+173            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03"
+173-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:123:13-85
+174            android:launchMode="singleInstance" />
+174-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:124:13-48
+175        <activity
+175-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:125:9-127:51
+176            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04"
+176-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:126:13-85
+177            android:launchMode="singleInstance" />
+177-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:127:13-48
+178        <activity
+178-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:128:9-130:51
+179            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05"
+179-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:129:13-85
+180            android:launchMode="singleInstance" />
+180-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:130:13-48
+181        <activity
+181-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:131:9-133:51
+182            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06"
+182-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:132:13-85
+183            android:launchMode="singleInstance" />
+183-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:133:13-48
+184        <activity
+184-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:134:9-136:51
+185            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07"
+185-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:135:13-85
+186            android:launchMode="singleInstance" />
+186-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:136:13-48
+187        <activity
+187-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:137:9-139:51
+188            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08"
+188-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:138:13-85
+189            android:launchMode="singleInstance" />
+189-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:139:13-48
+190        <activity
+190-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:140:9-142:51
+191            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09"
+191-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:141:13-85
+192            android:launchMode="singleInstance" />
+192-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:142:13-48
+193        <activity
+193-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:143:9-146:64
+194            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T"
+194-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:144:13-87
+195            android:launchMode="singleInstance"
+195-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:145:13-48
+196            android:theme="@android:style/Theme.Translucent" />
+196-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:146:13-61
+197        <activity
+197-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:147:9-150:64
+198            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T"
+198-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:148:13-87
+199            android:launchMode="singleInstance"
+199-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:149:13-48
+200            android:theme="@android:style/Theme.Translucent" />
+200-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:150:13-61
+201        <activity
+201-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:151:9-154:64
+202            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T"
+202-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:152:13-87
+203            android:launchMode="singleInstance"
+203-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:153:13-48
+204            android:theme="@android:style/Theme.Translucent" />
+204-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:154:13-61
+205
+206        <meta-data
+206-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:156:9-158:41
+207            android:name="tinker_version"
+207-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:157:13-42
+208            android:value="1.9.14.17" />
+208-->[com.tencent.tinker:tinker-android-loader:1.9.14.17] C:\Users\MFJS.DESKTOP-AL1GQRM\.gradle\caches\transforms-2\files-2.1\ef56f5ff3f2efdb7771b034b56d35599\jetified-tinker-android-loader-1.9.14.17\AndroidManifest.xml:158:13-38
+209    </application>
+210
+211</manifest>

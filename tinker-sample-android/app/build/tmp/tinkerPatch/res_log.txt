@@ -1,0 +1,4 @@
+modify resource: res/layout/activity_main.xml, oldSize=1972, newSize=1976
+modify resource: res/layout-v17/activity_main.xml, oldSize=2148, newSize=2152
+add test resource: assets/only_use_to_test_tinker_resource.txt, oldSize=0, newSize=24
+Final normal zip resource: resources_out.zip, size=560301, md5=fb445057568c2e99f457a00089877792

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tencent.tinker:tinker-android-lib:1.9.14.17@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d3b8e1804abb1f754a1bab0c6089cb3/jetified-tinker-android-lib-1.9.14.17/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d3b8e1804abb1f754a1bab0c6089cb3/jetified-tinker-android-lib-1.9.14.17/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d3b8e1804abb1f754a1bab0c6089cb3/jetified-tinker-android-lib-1.9.14.17/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dbc9098d1e14413a991d9c82454eb904/jetified-tinker-android-lib-1.9.14.17/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dbc9098d1e14413a991d9c82454eb904/jetified-tinker-android-lib-1.9.14.17/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dbc9098d1e14413a991d9c82454eb904/jetified-tinker-android-lib-1.9.14.17/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/tinker-android-lib/1.9.14.17/38788194a8c2244cf1ee7964160bb5b3d3314424/tinker-android-lib-1.9.14.17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/tinker-android-lib/1.9.14.17/4ef18eb82100c10da66146c71c44135f932b019d/tinker-android-lib-1.9.14.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

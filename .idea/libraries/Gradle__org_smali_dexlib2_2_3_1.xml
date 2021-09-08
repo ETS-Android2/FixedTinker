@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.smali:dexlib2:2.3.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.smali/dexlib2/2.3.1/ba93ddb882b375582c526afbb3c7343ea29b8f16/dexlib2-2.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.smali/dexlib2/2.3.1/6c6c880ea90d87f978a7491b81b988287f03f5f9/dexlib2-2.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,8 @@
+#base package config field
+#Thu Jul 08 18:50:21 CST 2021
+patchMessage=tinker is sample to use
+TINKER_ID=tinker_id_0
+patchVersion=1.0
+NEW_TINKER_ID=tinker_id_0
+is_protected_app=0
+platform=all
